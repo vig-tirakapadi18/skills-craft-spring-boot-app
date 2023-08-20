@@ -1,0 +1,35 @@
+@charset "ISO-8859-1";
+
+body {
+	background-image: url("https://wallpaperaccess.com/full/3278208.jpg");
+}
+
+.main-heading {
+	background-color: rgba(255, 255, 255, 0.8);
+	color: black;
+	border-radius: 5px;
+	font-size: 3rem;
+	text-transform: uppercase;
+}
+
+.container {
+	width: 1000px;
+	max-width: 1100px;
+}
+
+.btn {
+	width: 200px;
+	font-size: 24px;
+	height: 60px;
+	margin: 10px;
+	transition: all 0.3s linear;
+}
+
+.btn:hover {
+	opacity: 0.9;
+	transform: scale(1.05);
+}
+
+p {
+	font-size: 18px;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <title>Student Home</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      th:href="@{/images/favicon.ico}" />
+    <link
+      rel="stylesheet"
+      th:href="@{/css/style.css}" />
+    <link
+      rel="stylesheet"
+      th:href="@{/css/studentHome.css}" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- <h2>Welcome <h2 th:text="${loggedInUser.username}">!</h2> -->
+      <a href="/purchaseCourse">
+        <button class="btn btn-primary">Explore Courses</button>
+      </a>
+      <br />
+      <a href="/myCourses">
+        <button class="btn btn-primary">My Courses</button>
+      </a>
+    </div>
+  </body>
+</html>

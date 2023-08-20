@@ -1,0 +1,21 @@
+@charset "ISO-8859-1";
+
+.btn-dark {
+  background-color: #059669;
+  color: white;
+  width: 300px;
+  height: 50px;
+  margin: 15px;
+  border-radius: 10px;
+  font-size: 24px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: all 0.25s linear;
+}
+
+.btn-dark:hover {
+  background-color: #0284c7;
+  transform: scale(1.05);
+  color: black;
+}

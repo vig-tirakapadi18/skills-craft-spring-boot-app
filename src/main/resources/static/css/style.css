@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito:wght@400;500;600;700;800;900&family=REM:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+  /* background-color: #292524; */
+  background-image: url("https://png.pngtree.com/background/20210709/original/pngtree-creative-housing-sun-background-books-education-poster-picture-image_557788.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 2rem;
+  padding-bottom: 60px;
+  width: 400px;
+  max-width: 500px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+a {
+  text-decoration: none;
+}
+
+input {
+  margin: 10px;
+  width: 100%;
+  max-width: 300px;
+  border-radius: 5px;
+  padding: 3px;
+  height: 1.5rem;
+  font-size: 16px;
+  padding-left: 7px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.btn {
+  width: 100px;
+  padding: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  color: white;
+  font-size: 16px;
+  letter-spacing: 1px;
+  border: none;
+}
+
+.btn-primary {
+  background-color: #0ea5e9;
+}
+
+.btn-secondary {
+  background-color: #10b981;
+}
+
+
+table {
+  border-collapse: collapse;
+}
+
+thead,
+td,
+th {
+  border: 2px solid white;
+  padding: 10px;
+  color: black;
+  font-weight: 700;
+}
+
+thead {
+  background-color: #10b981;
+  font-size: 20px;
+}
+
+tbody {
+  background-color: #a7f3d0;
+}

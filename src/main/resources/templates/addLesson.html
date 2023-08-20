@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <title>Add Lesson</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      th:href="@{/images/favicon.ico}" />
+
+    <link
+      rel="stylesheet"
+      th:href="@{/css/style.css}" />
+
+    <link
+      rel="stylesheet"
+      th:href="@{/css/addLesson.css}" />
+  </head>
+  <body>
+    <div class="container">
+      <form
+        action="/addLesson"
+        method="post">
+        <input
+          type="text"
+          name="course"
+          placeholder="Course ID" />
+        <input
+          type="text"
+          name="lessonId"
+          placeholder="Lesson ID" />
+        <input
+          type="text"
+          name="lessonName"
+          placeholder="Lesson Name" />
+        <input
+          type="text"
+          name="lessonTopics"
+          placeholder="Lesson Topics" />
+        <input
+          type="text"
+          name="lessonLink"
+          placeholder="Lesson Link" />
+
+        <button
+          type="submit"
+          class="btn btn-primary">
+          Add Lesson
+        </button>
+      </form>
+    </div>
+  </body>
+</html>

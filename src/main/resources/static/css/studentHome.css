@@ -1,0 +1,14 @@
+@charset "ISO-8859-1";
+
+.btn {
+	width: 300px;
+	margin: 20px;
+	height: 60px;
+	font-size: 20px;
+	transition: all 0.3s linear;
+}
+
+.btn:hover {
+	background-color: #059669;
+	transform: scale(1.1);
+}
